@@ -196,13 +196,14 @@ public class ChoiceSetWriterLPBFSLE {
 					log.warn("max overlap is " + max_overlap);
 					
 					
-					out.write(id + ",");
+					
 					
 					for (Map.Entry<Integer, Path> choice_set_entry : internal_ids.entrySet()) {
 						int internal_id = choice_set_entry.getKey();
 						Path path = choice_set_entry.getValue();
 						
-						out.write(internal_id + ", ");
+						out.write(id + ",");
+						out.write(internal_id + ",");
 						
 						//write out the route links are represent by node-to-node ids
 						for (Link l : path.links) {
