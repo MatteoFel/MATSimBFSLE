@@ -6,7 +6,7 @@ The Breadth First Search on Link Elimination (BFS-LE) algorithm is a route choic
 Kay W. Axhausen, Nadine Rieser-Schüssler, and Michael Balmer. 
 “Route choice sets for very high-resolution data”. en. Transportmetrica A: Transport Science 9.9 (2013), pp. 825 –845
 
-The original code is due to Michael Balmer, now at Senozon AG.
+The original code is due to Michael Balmer, Co-Founder and Managing director of Senozon AG.
 
 Additionally, the code is extended to include a link penalty variant of the BFS-LE. Since the BFS-LE algorithm consists of repeated least-cost path computations, the link penalty variant enables the analyst to penalize links (i.e. increase their travel cost) that are part of the alternatives that make up the choice set up to that point.
 
