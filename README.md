@@ -16,3 +16,5 @@ The other two examples of the link penalty variant are specific to an IVT-ETH pr
 
 Meister, Adrian, Felder, Matteo, Schmid, Basil and Kay W. Axhausen. 2022.
 "Route choice modelling for cyclists on dense urban networks". Arbeitsberichte Verkehrs- und Raumplanung 1764.
+
+The Python scripts in the network conversion folder are also for internal-use only. In case you have a clean MATSim network this conversion procedure is not needed.
