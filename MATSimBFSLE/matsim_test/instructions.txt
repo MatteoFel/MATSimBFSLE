@@ -1,9 +1,10 @@
-
+The input .tsv-file might look like this
 
 id | origin | destination | linkID 1 | linkID 2 | linkID 3 | linkID 4				
 1 	   1	         13	          1	        6	         15	       20
+2      2           14           10        19         20        21
 
-
+and within Eclipse the input arguments (under Run/Run configurations) for any of the analysis files should be of the form
 
 5
 1
