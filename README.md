@@ -10,7 +10,7 @@ The original code is due to Michael Balmer, Co-Founder and Managing director of 
 
 Additionally, the code is extended to include a link penalty variant of the BFS-LE. Since the BFS-LE algorithm consists of repeated least-cost path computations, the link penalty variant enables the analyst to penalize links (i.e. increase their travel cost) that are part of the alternatives that make up the choice set up to that point.
 
-The code contains analysis scripts for two simple examples - one uses the original BFS-LE algorithm, the other its link penalty variant - to get accustomed with the algorithms. 
+The code contains analysis scripts and the required data for two simple examples - one uses the original BFS-LE algorithm, the other its link penalty variant - to get accustomed with the algorithms. 
 
 The other two examples of the link penalty variant are specific to an IVT-ETH project, and are for internal-use only. The reference here is
 
